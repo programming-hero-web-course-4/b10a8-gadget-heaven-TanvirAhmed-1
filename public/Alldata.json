@@ -1,0 +1,199 @@
+ [
+      {
+        "product_id": "001",
+        "product_title": "iPhone 13",
+        "product_image": "https://i.ibb.co.com/rH8KfP6/iphone-12-specs-ffy8c0h8c2ai-og.png",
+        "category": "Smartphone",
+        "price": 999,
+        "description": "The iPhone 13 features a sleek design, A15 Bionic chip, and improved battery life.",
+        "specification": {
+          "storage": "128GB",
+          "color": "Midnight",
+          "camera": "12MP Dual-camera system"
+        },
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "013",
+        "product_title": "Samsung Galaxy S23",
+        "product_image": "https://i.ibb.co.com/PTs4wdB/pexels-webber-amir-1551084-20348037.jpg",
+        "category": "Smartphone",
+        "price": 849,
+        "description": "Samsung Galaxy S23 comes with Snapdragon 8 Gen 2, a vibrant AMOLED display, and a premium design.",
+        "specification": {
+          "storage": "256GB",
+          "color": "Phantom Black",
+          "camera": "50MP Triple-camera system"
+        },
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "002",
+        "product_title": "iPhone 14 Pro",
+        "product_image": "https://i.ibb.co.com/pLhxTjZ/images.jpg",
+        "category": "Smartphone",
+        "price": 1199,
+        "description": "iPhone 14 Pro comes with a Dynamic Island, A16 Bionic chip, and exceptional camera capabilities.",
+        "specification": {
+          "storage": "256GB",
+          "color": "Deep Purple",
+          "camera": "48MP Triple-camera system"
+        },
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "003",
+        "product_title": "iPhone SE",
+        "product_image": "https://i.ibb.co.com/JtbC7zy/images-1.jpg",
+        "category": "Smartphone",
+        "price": 429,
+        "description": "iPhone SE combines the power of A15 Bionic with a compact and affordable design.",
+        "specification": {
+          "storage": "64GB",
+          "color": "Red",
+          "camera": "12MP Single-camera system"
+        },
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "004",
+        "product_title": "iPhone 12 Mini",
+        "product_image": "https://i.ibb.co.com/19ZkJ6h/images-2.jpg",
+        "category": "Smartphone",
+        "price": 699,
+        "description": "Compact, powerful, and vibrant, the iPhone 12 Mini features a Super Retina XDR display.",
+        "specification": {
+          "storage": "128GB",
+          "color": "Blue",
+          "camera": "12MP Dual-camera system"
+        },
+        "availability": false,
+        "rating": 4.5
+      },
+      {
+        "product_id": "005",
+        "product_title": "MacBook Air M1",
+        "product_image": "https://i.ibb.co.com/HpD8Q5y/download-2.jpg",
+        "category": "Laptop",
+        "price": 999,
+        "description": "MacBook Air with M1 chip offers impressive performance and extraordinary battery life.",
+        "specification": {
+          "processor": "M1 chip",
+          "storage": "256GB SSD",
+          "ram": "8GB"
+        },
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "006",
+        "product_title": "MacBook Air M2",
+        "product_image": "https://i.ibb.co.com/HV12RNN/download-1.jpg",
+        "category": "Laptop",
+        "price": 1199,
+        "description": "MacBook Air with the powerful M2 chip delivers exceptional performance and a lightweight design.",
+        "specification": {
+          "processor": "M2 chip",
+          "storage": "256GB SSD",
+          "ram": "8GB"
+        },
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "007",
+        "product_title": "MacBook Pro 14-inch",
+        "product_image": "https://i.ibb.co.com/0Q7cjzm/download.jpg",
+        "category": "Laptop",
+        "price": 1999,
+        "description": "Designed for professionals, the MacBook Pro 14-inch features M2 Pro chip and Liquid Retina display.",
+        "specification": {
+          "processor": "M2 Pro chip",
+          "storage": "512GB SSD",
+          "ram": "16GB"
+        },
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "008",
+        "product_title": "MacBook Pro 16-inch",
+        "product_image": "https://i.ibb.co.com/hWHBkdc/images-3.jpg",
+        "category": "Laptop",
+        "price": 2499,
+        "description": "With a stunning Liquid Retina XDR display and M2 Max chip, MacBook Pro 16-inch is built for creatives.",
+        "specification": {
+          "processor": "M2 Max chip",
+          "storage": "1TB SSD",
+          "ram": "32GB"
+        },
+        "availability": false,
+        "rating": 4.9
+      },
+      {
+        "product_id": "009",
+        "product_title": "Smart Watch Series 7",
+        "product_image": "https://i.ibb.co.com/HV70Wfx/download-6.jpg",
+        "category": "Smart Watch",
+        "price": 399,
+        "description": "Stay connected and track your fitness with the advanced Smart Watch Series 7.",
+        "specification": {
+          "screen_size": "1.7-inch Retina display",
+          "battery_life": "18 hours",
+          "connectivity": "Bluetooth, Wi-Fi"
+        },
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "010",
+        "product_title": "Smart Watch Series 8",
+        "product_image": "https://i.ibb.co.com/Qc167v3/download-3.jpg",
+        "category": "Smart Watch",
+        "price": 449,
+        "description": "Track your fitness and stay connected with the advanced Smart Watch Series 8.",
+        "specification": {
+          "screen_size": "1.9-inch Retina display",
+          "battery_life": "18 hours",
+          "connectivity": "Bluetooth, Wi-Fi"
+        },
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "011",
+        "product_title": "Smart Watch Ultra",
+        "product_image": "https://i.ibb.co.com/8D5XBGZ/download-4.jpg",
+        "category": "Smart Watch",
+        "price": 799,
+        "description": "Smart Watch Ultra offers unmatched durability and advanced health tracking features.",
+        "specification": {
+          "screen_size": "2.0-inch Retina display",
+          "battery_life": "36 hours",
+          "connectivity": "Bluetooth, Wi-Fi, Cellular"
+        },
+        "availability": false,
+        "rating": 4.8
+      },
+      {
+        "product_id": "012",
+        "product_title": "Smart Watch SE",
+        "product_image": "https://i.ibb.co.com/WKbTtLx/download-5.jpg",
+        "category": "Smart Watch",
+        "price": 279,
+        "description": "Smart Watch SE offers essential features at an affordable price.",
+        "specification": {
+          "screen_size": "1.6-inch Retina display",
+          "battery_life": "18 hours",
+          "connectivity": "Bluetooth, Wi-Fi"
+        },
+        "availability": true,
+        "rating": 4.6
+      }
+    ]
+
+  
