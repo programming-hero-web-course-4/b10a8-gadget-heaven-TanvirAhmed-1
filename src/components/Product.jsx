@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Product = ({ product }) => {
-  const { price, product_id, category, product_image, product_title } = product;
+  const {price, product_id, category, product_image, product_title } = product;
+
   return (
     <div className="font-sora card bg-white md:w-80 w-72 shadow-xl p-6 border-[#F3F3F3] border-2 grid justify-center items-center mx-auto">
       <figure className=" md:w-[282px] h-[181px] bg-[#F3F3F3] rounded-2xl">

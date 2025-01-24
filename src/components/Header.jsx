@@ -16,7 +16,7 @@ const Header = () => {
     </>
   );
   return (
-    <div>
+    <div className="bg-white">
       <div className="navbar bg-white max-w-[1280px] mx-auto font-sora py-7">
         <div className="navbar-start">
           <div className="dropdown">

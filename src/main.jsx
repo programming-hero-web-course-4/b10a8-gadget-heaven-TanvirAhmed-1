@@ -12,6 +12,7 @@ import Statistics from './components/Statistics';
 import Dashboard from './components/Dashboard';
 import Products from './components/Products';
 import Productdetails from './components/Productdetails';
+import Phone from './components/Phone';
 
 
 
@@ -30,10 +31,7 @@ const router = createBrowserRouter([
         element:<Productdetails></Productdetails>,
         loader:() => fetch("./Alldata.json"),
       },
-      {
-        path:"Products",
-        element:<Products></Products>,
-      },
+
       {
         path:"Statistics",
         element:<Statistics></Statistics>,
@@ -42,6 +40,11 @@ const router = createBrowserRouter([
       {
         path:"Dashboard",
         element:<Dashboard></Dashboard>,
+        loader:() => fetch("./Alldata.json"),
+      },
+      {
+        path:"phone",
+        element:<Phone></Phone>,
         loader:() => fetch("./Alldata.json"),
       },
     ]
