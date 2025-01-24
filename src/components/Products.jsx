@@ -16,11 +16,12 @@ const Products = () => {
   useEffect(()=>
     {
     setfilter(data);
-  },[]);
+  },[data]);
 
-  const all=()=>{
-    setbactive("all");
+  const all=(all)=>{
+    setbactive(all);
     setfilter(data);
+    
   }
 
 const filterdata=( category)=>{
@@ -42,7 +43,7 @@ const filterdata=( category)=>{
       <div className="font-sora ">
         <div className="lg:w-6/6 bg-[#F3F3F3] border-2 rounded-lg border-solid mx-2">
           <div className="grid lg:grid-cols-1 grid-cols-3 gap-4 md:p-6 p-3  bg-white">
-            <button onClick={all} className={`btn hover:bg-[#d049c3] ${bactive==="all" ?"bg-[#9538E2] text-white":"text-gray-600 bg-gray-200 "} border-none rounded-3xl  text-[18px] font-medium`}>
+            <button onClick={()=>all("all")} className={`btn hover:bg-[#d049c3] ${bactive==="all" ?"bg-[#9538E2] text-white":"text-gray-600 bg-gray-200 "} border-none rounded-3xl  text-[18px] font-medium`}>
               All Product
             </button>
             <button onClick={()=>filterdata("Laptop")}  className={`btn hover:bg-[#d049c3] ${bactive==="Laptop" ?"bg-[#9538E2] text-white":"text-gray-600 bg-gray-200 "} border-none rounded-3xl  text-[18px] font-medium`}>
